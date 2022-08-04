@@ -1,56 +1,50 @@
-h1{
-   text-align: center;
-}
-
-main{
+header, h2{
+    background-color: cadetblue;
+    margin: auto;
     text-align: center;
+    width: 75%;
+    padding: 10px 0;
 }
 
-aside{
-    box-align: left;
-}
-section{
-text-align: center;
-}
-
-article{
-    font-family: 'Courier New', Courier, monospace;
-    text-align: justify;
-    box-align: center 50%;
+main, footer, article{
+    text-align: center;
+    margin: auto;
+    width: 75%;
+    padding: 45px;
 }
 
-aside{
-    left:100%;
-}
-
-
-footer{
-    text-align:center;
+audio, form, video{
+    padding: 30px;
+    width: 75%;
+    margin: auto;
 }
 
 
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: auto;
     padding: 0;
-    background-color: #F1F1F1;
+    background-color: rgb(184, 184, 184);
     font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
 }
 
 li {
-    display: inline;
-    float: left;
+    display: inline-block;
+    padding-top: 10px;
+    margin: auto;
 }
 
 li a{
     text-decoration: none;
     padding: 10px 20px;
     display: block;
+    text-align: center;
 
 }
 li a:hover{
     background-color: #555;
+    text-decoration: none;
 }
 
 #index .index {
